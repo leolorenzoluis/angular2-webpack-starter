@@ -3,23 +3,8 @@ import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'about',
-  styles: [`
-  `],
-  template: `
-    <h1>About</h1>
-    <md-card>
-      For hot module reloading run
-      <pre>npm run start:hmr</pre>
-    </md-card>
-    <hr>
-    <md-card>
-      <h3>
-        patrick@AngularClass.com
-      </h3>
-    </md-card>
-    <hr>
-    <md-card><pre>this.localState = {{ localState | json }}</pre></md-card>
-  `
+  styles: [``],
+  templateUrl: './about.html'
 })
 export class AboutComponent {
   localState: any;

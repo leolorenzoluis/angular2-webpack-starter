@@ -49,7 +49,7 @@ type StoreType = {
     BrowserModule,
     FormsModule,
     HttpModule,
-    RouterModule.forRoot(ROUTES, { useHash: true }),
+    RouterModule.forRoot(ROUTES, { useHash: false }),
     MaterialModule.forRoot(),
   ],
   providers: [ // expose our Services and Providers into Angular's dependency injection
